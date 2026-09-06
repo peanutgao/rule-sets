@@ -1,14 +1,34 @@
 payload:
+  # =========================
+  # Gemini Web
+  # =========================
+  - DOMAIN,gemini.google.com
+  - DOMAIN,bard.google.com
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,notebooklm.google.com
+  - DOMAIN,labs.google
+
+  # =========================
+  # Google AI Developer
+  # =========================
   - DOMAIN,ai.google.dev
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN,makersuite.google.com
-  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN,proactivebackend-pa.googleapis.com
+
+  # =========================
+  # Google DeepMind
+  # =========================
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,apis.google.com
-  - DOMAIN-KEYWORD,colab
-  - DOMAIN-KEYWORD,developerprofiles
-  - DOMAIN-KEYWORD,generativelanguage
+
+  # =========================
+  # Antigravity / Cloud Code
+  # =========================
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN,cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+  - DOMAIN,autopush-cloudcode-pa.sandbox.googleapis.com
+  - DOMAIN,cloudaicompanion.googleapis.com
